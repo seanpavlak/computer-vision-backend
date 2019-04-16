@@ -31,8 +31,7 @@ Classify MNIST Data Set using Keras
 
 # Semantic Segmentation Project
 Using KITTI Road Data produce a model that is able to discern what is, and what is not, road
-> [Download Data](https://www.dropbox.com/sh/flf5dnhuq6b9z6h/AAADsRNWn7lwb2wAZIhy3iNPa?dl=0){:target="_blank"}
-<a href="http://stackoverflow.com" target="_blank">Go</a>
+> [Download Data](https://www.dropbox.com/sh/flf5dnhuq6b9z6h/AAADsRNWn7lwb2wAZIhy3iNPa?dl=0)
 
 
 ## Abstract
