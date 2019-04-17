@@ -43,7 +43,13 @@ Using KITTI Road Data produce a model that is able to discern what is, and what 
 
 
 ## Abstract
+I set out to better understand and implement semantic segmentation. At this point in time deep learning is the chosen mechanism to perform semantic segmentation, but people used approaches like TextonForest and Random Forest based classifiers in the past. As with image classification, convolutional neural networks have had enormous success on segmentation problems.
 
+One newer method of segmentation is Fully Convolutional Neural Networks. Fully convolutional indicates that the neural network is composed of convolutional layers without any fully-connected layers usually found at the end of the network. To semantic segment a image, a "fully convolutional" neural networks can take input of arbitrary size and produce correspondingly-sized output with efficient inference and learning, both learning and inference are performed whole-image-at-a-time by dense feedforward computation and back-propagation. In-network upsampling layers enable pixelwise prediction and learning in nets with subsampled pooling.
+
+The dataset I am using is the KITTI road data. KITTI is a project of Karlsruhe Institute of Technology and Toyota Technological Institute at Chicago. The dataset includes three different categories of road; urban unmarked, urban marked, and urban multiple marked lanes. This data is also broken up into preset training and testing sets.
+
+The best model I was able to generate was able to differentiate between road and non-road area efficiently. This testing set still appears to give this model some difficulties with rough edges and with shadows on the road. However, in most of the cases this model was able to differentiate between road and non-road very well.
 
 ## Tech Stack
 * [Distutils](https://docs.python.org/3/library/distutils.html)
