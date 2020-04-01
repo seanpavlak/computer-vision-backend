@@ -1,5 +1,5 @@
 # computer-vision-backend
-Computer Vision Project Collection
+[Computer Vision Project Collection](https://github.com/seanpavlak/computer-vision-backend/blob/master/mnist%20classification/E1_keras.ipynb)
 
 # Image Filter Project
 * Plot the basis functions of a 16x16 discrete cosine transform (DCT)
@@ -27,7 +27,7 @@ Lastly, I performed PCA on an MNIST image to generate the 784 principle componen
 * [Sklearn](https://scikit-learn.org/stable/)
 
 # MNIST Classification Project
-Classify MNIST Data Set using Keras
+[Classify MNIST Data Set using Keras](https://github.com/seanpavlak/computer-vision-backend/blob/master/semantic%20segmentation/E1_%20semantic_segmentation.ipynb)
 
 ## Abstract
 In this exercise I utilized the Keras library. Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation. My approach was to take this library and condense it down into a single executable function and make small incremental changes to my layers in order to develop the fastest and most accurate CNN possible. This CNN was trained on the MNIST dataset. In this experiment I was able to generate many CNNs, some of which had an accuracy up to 98.8%.
